@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class SimpleCalculator {
+public class BasicCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the Simple Calculator!");
+        
         System.out.print("Enter the first number: ");
         double firstNumber = scanner.nextDouble();
         System.out.print("Enter the second number: ");
@@ -24,7 +24,7 @@ public class SimpleCalculator {
                 break;
             case '/':
                 if (secondNumber == 0) {
-                    System.out.println("Error");
+                    System.out.println("Can't divide by zero");
                     return;
                 }
                 result = firstNumber / secondNumber;
