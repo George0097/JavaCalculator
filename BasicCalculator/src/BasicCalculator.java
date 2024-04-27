@@ -14,23 +14,23 @@ public class BasicCalculator {
         switch (operator) {
             case '+':
                 result = firstNumber + secondNumber;
-                break;
+                break ;
             case '-':
                 result = firstNumber - secondNumber;
-                break;
+                break ;
             case '*':
                 result = firstNumber * secondNumber;
-                break;
+                break ;
             case '/':
                 if (secondNumber == 0) {
                     System.out.println("Can't divide by zero");
-                    return;
+                    return ;
                 }
                 result = firstNumber / secondNumber;
-                break;
+                break ;
             default:
                 System.out.println("Error");
-                return;
+                return ;
         }
         System.out.printf("Result: %.2f %c %.2f = %.2f\n", firstNumber, operator, secondNumber, result);
     }
