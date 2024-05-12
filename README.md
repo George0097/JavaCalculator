@@ -2,4 +2,4 @@
 
 
 
-a basic calculator project written in Java.
+A Basic Calculator project written in Java.
